@@ -50,7 +50,6 @@ Assim o servidor ficará disponível em: http://localhost:3000
 - Resposta (200 OK):
 
     ```json
-    Copiar código
     [
     {
         "id": "123456",
