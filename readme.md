@@ -6,13 +6,14 @@ Essa é uma API desenvolvida com Node.js e Express, que permite o gerenciamento 
 
 - **Obter posts**: Retornar todos os posts cadastrados.
 
-    *Mais funcionalidades vindo ai. . .*
+    **Mais funcionalidades vindo ai. . .**
 
 ## Tecnologias Utilizadas
 
 - [Node.js](https://nodejs.org/)
 - [Express](https://expressjs.com/)
 - [MongoDB](https://www.mongodb.com/)
+- [Multer](https://github.com/expressjs/multer/blob/master/doc/README-pt-br.md)
 
 ## Pré-requisitos
 
@@ -25,21 +26,17 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/social-media-api.git
-   cd social-media-api
-
+   git clone https://github.com/Nathan-Caetano/Posts-Api
+   cd Posts-Api
 2. Instale as dependências:
     ```bash
     npm install
-
 3. Configure variáveis de ambiente: Crie um arquivo .env na raiz do projeto com as seguintes variáveis:
     ```env
     STRING_CONEXAO = sua_chave_de_conexão_com_mongodb
-
 4. inicie o servidor:
     ```bash
     node server.js
-
 Assim o servidor ficará disponível em: http://localhost:3000
 
 ## Rotas da API
@@ -57,5 +54,4 @@ Assim o servidor ficará disponível em: http://localhost:3000
         "imageUrl": "http://example.com/imagem.jpg"
     }
     ]
-
 Mais rotas por vir. . .

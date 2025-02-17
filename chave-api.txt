@@ -1,0 +1,5 @@
+AIzaSyBuQzpdtsdbNveHfZMCPDviVRMsk_etYN4
+User: naito
+senha: NaNa2816
+
+mongodb+srv://naito:<db_password>@cluster0.cinia.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
